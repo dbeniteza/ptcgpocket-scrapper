@@ -1,6 +1,6 @@
 # Pokémon TCG Pocket Web Scraper
 
-This Python script scrapes the Pokémon TCG Pocket website to extract card information such as name, type, HP, attacks, weaknesses, and more. It then converts this data into JSON and optionally saves it to a CSV file.
+Python script scrapes the Limitless TCG Pocket website to extract card information such as name, type, HP, attacks, weaknesses, and more. It then converts this data into JSON.
 
 ## ✨ Features
 - Scrapes card information from the Pokémon TCG Pocket website.
@@ -33,7 +33,7 @@ Make sure you have Python 3.x installed. This project uses:
 - beautifulsoup4 – for parsing HTML content
 
 ## 📊 Data Origins
-The card data is sourced from the Pocket Limitless TCG website. This data includes card names, types, HP, attacks, weaknesses, and image URLs, and is used to build a structured dataset in JSON format.
+The card data is sourced from the Limitless TCG Pocket website. This data includes card names, types, HP, attacks, weaknesses, and image URLs, and is used to build a structured dataset in JSON format.
 
 ## 🖼️ Sample Card Preview
 Here’s an example of a Pokémon card image scraped from the site:
